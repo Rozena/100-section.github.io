@@ -1,0 +1,89 @@
+
+/*tablet screen layout-768px.*/
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+.custom-navigation-style #main-menu-collapse ul li a {padding: 25px 12px;}   
+.slide-content h1 {font-size: 35px;} 
+.slide-content p {width: 100%;}   
+.about-info-title h2 {margin: 40px 0px 10px;}    
+ .about-title p, .service-title p, .blog-title p, .pricing-title > p, .contact-title > p {margin: 0 auto 50px;width: 100%;} 
+ .single-service-item i { margin: 0 0 15px;}   
+.single-service-item .business-btn {margin-bottom: 10px;}
+.blog-head > h4 a {font-size: 12px;}    
+.blog-user-info a > i {font-size: 10px;}
+.blog-user-info {padding-left: 70px; margin-top: -50px;}
+.date::after {border-bottom: 30px solid #f3f3f4;border-left: 22px solid transparent;border-right: 24px solid transparent;}
+.date {width: 45px;}    
+.quote::after {right: 265px;}   
+.style-content p.quote{width: 100%;}   
+.location {margin-bottom: 30px;} 
+.widget-title h2.widget {margin: 0 0 10px;}  
+    
+}
+
+/*mobile screen layout-320px(normalphone).*/
+
+@media only screen and (max-width:767px) {
+.header-area {background: #FA9797;height: 72px;}
+.navbar-brand.logo h1:hover{border: 2px solid #5A5858;color: #5A5858;}
+.navbar-default.custom-navigation-style .navbar-toggle {border-color: #ebe7e7;margin-top: 18px;transition: all .6s ease;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {border-color: transparent !important;box-shadow: none;padding-top: 3px;   }    
+.navbar-default.custom-navigation-style .navbar-toggle:hover, .navbar-default.custom-navigation-style .navbar-toggle:focus, .navbar-default.custom-navigation-style .navbar-toggle:active{background: #5A5858;border: 1px solid #5A5858;}   
+.navbar-default.custom-navigation-style .navbar-toggle .icon-bar {background-color: #ebe7e7;}    
+.custom-navigation-style #main-menu-collapse ul{background: #FA9797;}   
+.custom-navigation-style #main-menu-collapse ul li{border-top: 1px solid #fac0c0;border-bottom: 1px solid #f95757;}   
+.custom-navigation-style #main-menu-collapse ul li:first-child{border-top: none;}   
+.custom-navigation-style #main-menu-collapse ul li:last-child{border-bottom: none;}   
+.custom-navigation-style #main-menu-collapse ul li a {padding: 10px 20px;} 
+.custom-navigation-style #main-menu-collapse ul li a:hover, .custom-navigation-style #main-menu-collapse ul li.active a {color: #5A5858;}    
+.section-padding{padding: 60px 0;}    
+.about-title {padding-top: 65px;}
+.about-title h2 {font-size: 30px;}
+.single-about-item img {margin-bottom: 10px;width: 100%;}
+.about-title p, .service-title > p {width: 100%;}
+.single-about-item > h3 {font-size: 20px;}
+.single-about-item .business-btn {margin-bottom: 10px;margin-top: 20px;}
+.about-info-title h2, .service-title > h2 {font-size: 30px;}
+.single-service-item i {font-size: 33px; margin: 0 0 15px;}
+.single-about-item h3, .single-service-item h3 {font-size: 20px;margin: 0 0 5px;}   
+.single-service-item .business-btn {margin-bottom: 20px;margin-top: 15px;}    
+.about-title h2, .service-title h2, .blog-title h2, .pricing-title > h2, .contact-title > h2 {font-size: 30px;}   
+.about-title p, .service-title p, .blog-title p, .pricing-title > p, .contact-title > p {margin: 0 auto 30px;width: 100%;}
+.blog-head > h4 a { font-size: 15px; padding-left: 60px;}    
+.blog-user-info a > i {font-size: 14px;}   
+.blog-user-info {padding-left: 60px;font-size: 12px;}   
+.blog-content .business-btn { margin-top: 15px;}    
+.style-content h2 {font-size: 30px;}   
+.style-content p.quote {width: 100%;} 
+.style-content p.quote {margin: 70px auto 0;width: 100%;}   
+.quote::before, .quote::after {font-size: 25px;} 
+.quote::before {margin-right: 120px;left: 50%;top: -30px;margin-left: -25px;}  
+.quote::after {bottom: 0;right: 50%;margin-right: -25px;}    
+.style-content p.quote {padding-bottom: 40px;width: 100%;}    
+.bc-contact-form {margin-top: 30px;}    
+.widget-title h2.widget { margin: 0 0 10px;}    
+.location {margin-top: 0;margin-bottom: 25px;}   
+.menu {padding-top: 0px;}    
+.social-area {display: block;padding-bottom: 40px;}   
+   
+}
+
+/*wide mobile layout-480px (smartphone).*/
+
+@media only screen and (min-width:480px) and (max-width:767px) {.single-about-item > img, .blog-content > img {width: 100%;}
+.style-content p.quote {width: 95%;}      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
